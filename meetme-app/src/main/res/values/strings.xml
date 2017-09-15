@@ -1,4 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">MeetMe</string>
+    <string name="etName">name</string>
+    <string name="etUsername">username</string>
+    <string name="etPassword">password</string>
+    <string name="etAge">age</string>
+    <string name="button_register">register</string>
+    <string name="button_login">Login</string>
+    <string name="tvRegisterHere">Register here</string>
+    <string name="tvWelcomeMessage">Welcome to my App!</string>
+    <string name="tvAge">Your Age</string>
+    <string name="tvUsername">Your Username</string>
 </resources>

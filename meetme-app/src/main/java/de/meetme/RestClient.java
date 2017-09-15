@@ -1,4 +1,4 @@
-package de.meetme;
+/*package de.meetme;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
@@ -29,4 +29,4 @@ public class RestClient {
         return apiService;
     }
 }
-
+*/

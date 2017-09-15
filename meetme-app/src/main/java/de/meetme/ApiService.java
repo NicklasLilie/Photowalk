@@ -1,4 +1,4 @@
-package de.meetme;
+/*package de.meetme;
 
 import retrofit.Callback;
 import retrofit.http.GET;
@@ -15,4 +15,4 @@ public interface ApiService {
 
 
 }
-
+*/
