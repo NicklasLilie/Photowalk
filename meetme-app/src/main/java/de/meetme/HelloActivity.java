@@ -3,11 +3,9 @@ package de.meetme;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
-import android.widget.TextView;
 
 
 public class HelloActivity extends Activity {
@@ -37,7 +35,7 @@ public class HelloActivity extends Activity {
         loginLink.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent loginIntent = new Intent(HelloActivity.this, loginpage.class);
+                Intent loginIntent = new Intent(HelloActivity.this, Loginpage.class);
                 HelloActivity.this.startActivity(loginIntent);
             }
         });
