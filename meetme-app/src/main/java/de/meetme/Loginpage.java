@@ -18,7 +18,7 @@ public class Loginpage extends Activity {
         final EditText etUsername = (EditText) findViewById(R.id.etUsername);
         final EditText etPassword = (EditText) findViewById(R.id.etPassword);
 
-        final Button button_login = (Button) findViewById(R.id.button_login);
+        final Button btn_registerlink = (Button) findViewById(R.id.btn_registerlink);
 
         final TextView registerLink = (TextView) findViewById(R.id.tvRegister);
 

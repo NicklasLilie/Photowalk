@@ -13,7 +13,7 @@ public class UserAreaActivity extends AppCompatActivity {
         setContentView(R.layout.activity_user_area);
 
         final EditText etUsername = (EditText) findViewById(R.id.etUsername);
-        final EditText etAge = (EditText) findViewById(R.id.etAge);
+        final EditText etFirstname = (EditText) findViewById(R.id.etFirstname);
         final TextView welcomeMsg = (TextView) findViewById(R.id.tvWelcomeMsg);
     }
 }
