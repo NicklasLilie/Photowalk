@@ -18,9 +18,17 @@ public class Loginpage extends Activity {
         final EditText etUsername = (EditText) findViewById(R.id.etUsername);
         final EditText etPassword = (EditText) findViewById(R.id.etPassword);
 
-        final Button btn_registerlink = (Button) findViewById(R.id.btn_registerlink);
+        final Button btnLogin = (Button) findViewById(R.id.btnLogin);
 
         final TextView registerLink = (TextView) findViewById(R.id.tvRegister);
+
+        btnLogin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent homeIntent = new Intent(Loginpage.this, Home.class);
+                Loginpage.this.startActivity(homeIntent);
+            }
+        });
 
         registerLink.setOnClickListener(new View.OnClickListener() {
             @Override
